@@ -8,22 +8,22 @@ const Banner = () => {
                 <img src={img} alt="Pizza" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
             <div className="carousel-item">
-                <img src="https://placeimg.com/400/300/arch" alt="Pizza" />
+                <img src="" alt="" />
             </div>
         </div>
     );
