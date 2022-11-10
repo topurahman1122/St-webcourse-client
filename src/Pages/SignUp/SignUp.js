@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 
 const SignUp = () => {
-
+    const { createUser } = useContext(AuthContext);
     const handleSignUP = event => {
         event.preventDefult();
+        const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+
+        createUser(email, password)
+            .then(result => {
+                const user = result.user;
+                console.log(user);
+            })
+            .catch(err => console.error(err));
     }
 
 
