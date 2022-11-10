@@ -1,5 +1,6 @@
 import Main from "../../Layout/Main";
 import Blogs from "../../Pages/Blogs/Blogs";
+import Checkout from "../../Pages/Checkout/Checkout";
 import Home from "../../Pages/Home/Home/Home";
 import Services from "../../Pages/Home/Services/Services";
 import Login from "../../Pages/Login/Login";
@@ -33,7 +34,11 @@ const router = createBrowserRouter
                 {
                     path: '/signup',
                     element: <SignUp></SignUp>
-                }
+                },
+                {
+                    path: '/checkout/id',
+                    element: <Checkout></Checkout>
+                },
             ]
         }
     ])
