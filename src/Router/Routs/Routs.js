@@ -1,8 +1,10 @@
 import Main from "../../Layout/Main";
 import Blogs from "../../Pages/Blogs/Blogs";
 import Checkout from "../../Pages/Checkout/Checkout";
+import Faq from "../../Pages/Faq/Faq";
 import Home from "../../Pages/Home/Home/Home";
-import Services from "../../Pages/Home/Services/Services";
+import Courses from "../../Pages/Home/Services/Courses";
+
 import Login from "../../Pages/Login/Login";
 import SignUp from "../../Pages/SignUp/SignUp";
 
@@ -20,12 +22,16 @@ const router = createBrowserRouter
                     element: <Home></Home>
                 },
                 {
-                    path: '/services',
-                    element: <Services></Services>
+                    path: '/courses',
+                    element: <Courses></Courses>
                 },
                 {
                     path: '/blogs',
                     element: <Blogs></Blogs>
+                },
+                {
+                    path: '/faq',
+                    element: <Faq></Faq>
                 },
                 {
                     path: '/login',
