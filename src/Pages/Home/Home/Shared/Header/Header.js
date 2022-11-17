@@ -6,7 +6,7 @@ const Header = () => {
 
     const menuItems = <>
         <li className='font-bold'><Link to='/'>Home</Link></li>
-        <li className='font-bold'><Link to='/courses'>Courses</Link></li>
+        <li className='font-bold'><Link to='/services'>Services</Link></li>
         <li className='font-bold'><Link to='/blogs'>Blogs</Link></li>
         <li className='font-bold'><Link to='/faq'>Faq</Link></li>
         <li className='font-bold'><Link to='/login'>Login</Link></li>
@@ -38,7 +38,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">ST-WEBCOURSE</a>
+                <a className="btn">BEST BYKE SERVICE</a>
             </div>
         </div>
     );

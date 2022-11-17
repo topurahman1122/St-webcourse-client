@@ -3,7 +3,7 @@ import Blogs from "../../Pages/Blogs/Blogs";
 import Checkout from "../../Pages/Checkout/Checkout";
 import Faq from "../../Pages/Faq/Faq";
 import Home from "../../Pages/Home/Home/Home";
-import Courses from "../../Pages/Home/Services/Courses";
+import Services from "../../Pages/Home/Services/Services";
 
 import Login from "../../Pages/Login/Login";
 import SignUp from "../../Pages/SignUp/SignUp";
@@ -22,8 +22,8 @@ const router = createBrowserRouter
                     element: <Home></Home>
                 },
                 {
-                    path: '/courses',
-                    element: <Courses></Courses>
+                    path: '/services',
+                    element: <Services></Services>
                 },
                 {
                     path: '/blogs',
@@ -42,7 +42,7 @@ const router = createBrowserRouter
                     element: <SignUp></SignUp>
                 },
                 {
-                    path: '/checkout/id',
+                    path: '/checkout',
                     element: <Checkout></Checkout>
                 },
             ]

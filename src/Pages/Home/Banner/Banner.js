@@ -1,5 +1,5 @@
 import React from 'react';
-import img from '../../../assets/images/banner/e-learning-banner-design-template_23-2149113592.webp';
+import img from '../../../assets/images/banner/1.webp';
 
 const Banner = () => {
     return (
